@@ -1,0 +1,101 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: #fff; 
+}
+
+
+:root {
+    --primary-color: #0074e4;
+    --secondary-color: #4d97f2; 
+    --background-color: #f5f5f5; 
+    --text-color: #333; 
+}
+
+.project-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0074e4; 
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-card .card-img-top {
+    max-height: 200px; 
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+}
+
+.contact-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
